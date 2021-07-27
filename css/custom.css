@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+	width: 1200px;
+	margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+img{
+	max-height: 160px;
+	display: block;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+
+/*+++++++++ header css
+++++++++++ */
+
+header{
+
+border-bottom: 2px solid #3b506c1f;
+}
+header .row{
+	align-items: center;
+}
+
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo a{}
+.logo a img{}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    padding: 10px 15px;
+    display: block;
+    color: #3b506c;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+nav ul li a:hover{}
+
+
+/*+++++++++ banner section css
+++++++++++ */
+.banner-section{
+    padding: 50px 0;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 55px;
+    color: #3b506c;
+}
+.content h1 span{
+    display: block;
+    color: #0C66FF;
+}
+
+.content img{
+    max-width: 500px;
+}
+.content p{
+    color: #3b506cdb;
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+/* feature-section css  */
+.feature-section{}
+.feature-section .row{
+    justify-content: center;
+}
+.feature-content{}
+.feature-content h2{font-size: 50px;color: #3b506c;line-height: 1;font-weight: 800;}
+.feature-content h2 span{
+    color: #fb3232;
+}
+.feature-content p{
+    color: #3b506cdb;
+    margin: 5px auto;
+    font-size: 19px;
+    font-weight: 400;
+}
+.text-right{
+	text-align: right;
+}
+/* blog-section css */
+.blog-section{
+    padding: 50px 0;
+}
+.post{
+    padding: 60px 30px;
+    box-shadow: 0 6px 8px 0 #0000002b;
+}
+.illustration-5{
+    background: #FDEBED;
+}
+.illustration-6{
+    background: #EBF9F4;
+}
+.illustration-7{
+    background: #FFF7E8;
+}
+.post h3{}
+.post p{}
+.post img{}
+.col-3{
+    max-width: 33.33%;
+    flex: 1 0 33.33%;
+
+        padding: 15px;
+    box-sizing: border-box;
+}
+
+
+/**** footer ****/
+
+footer{
+	        background: #4584f6;
+	        padding: 10px;
+	        text-align: center;
+	}
+footer p{}
+footer p strong{
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+
+
+
